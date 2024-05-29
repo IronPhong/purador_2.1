@@ -382,6 +382,9 @@ a:focus {
     margin-bottom: 1.5rem;
   }
 
+  .slider_bg_box img {
+    width: 97%;
+  }
 
 }
 
