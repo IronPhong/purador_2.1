@@ -1497,6 +1497,14 @@ user agent stylesheet section {
   background-color: #40A578;
 }
 
+@media screen and (max-width: 600px) {
+  .about_purador a {
+    font-size: 11px;
+    width: 70%;
+    height: 45px;
+  }
+}
+
 /* contact */
 .contact_contents h1,
 .get_in_touch_contents h1,
