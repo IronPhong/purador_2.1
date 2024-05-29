@@ -1385,13 +1385,13 @@ user agent stylesheet section {
   .sale {
     display: inline-block;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .sale_2 {
     display: inline-block;
     /* color: #002c3e; */
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .slide_desc {
