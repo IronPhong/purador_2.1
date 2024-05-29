@@ -1500,7 +1500,7 @@ user agent stylesheet section {
 @media screen and (max-width: 600px) {
   .about_purador a {
     font-size: 11px;
-    width: 70%;
+    width: 85%;
     height: 45px;
   }
 }
