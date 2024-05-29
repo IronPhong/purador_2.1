@@ -1388,6 +1388,12 @@ user agent stylesheet section {
     font-size: 20px;
   }
 
+  .sale_2 {
+    display: inline-block;
+    /* color: #002c3e; */
+    font-size: 25px;
+  }
+
   .slide_desc {
     display: none;
   }
