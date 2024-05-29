@@ -38,7 +38,7 @@
                             <a class="nav-link dropdown-toggle" href="/shop" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Sản phẩm <span
                                         class="caret"></span></a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu list_menu">
                                 <%for(category of categories){%>
                                     <li><a href="/category-<%=category.slug%>.<%=category._id%>">
                                             <%=category.title%>
@@ -78,7 +78,7 @@
                             <a class="nav-link " href="#" data-toggle="dropdown" role="button" aria-haspopup="true"
                                 aria-expanded="true"> <span class="nav-label"><i class="fa fa-search"
                                         aria-hidden="true"></i><span class="caret"></span></a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu search_sm">
                                 <li>
                                     <form action="/search" class="form-inline">
                                         <input style="width: 150px;" class="form-control mt-6 search_form"

@@ -1506,6 +1506,40 @@ user agent stylesheet section {
   padding-bottom: 15px;
 }
 
+.contact_contents img {
+  width: 560px;
+  height: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .contact_contents img {
+    width: 100%;
+    height: auto;
+  }
+
+  .policy {
+    margin-top: 20px;
+  }
+
+  .total_price {
+    margin-top: 20px;
+  }
+
+  .cart-thumb {
+    margin-top: 20px;
+  }
+
+
+  .list_menu {
+    height: 150px;
+  }
+
+  .search_sm {
+    height: 75px;
+  }
+}
+
+
 /* Blog */
 .blog_thumb {
   width: 1200px;

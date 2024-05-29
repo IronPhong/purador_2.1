@@ -229,7 +229,7 @@ const order = async (req, res) => {
 
   await transporter.sendMail({
     from: '"daugoipurador.com" <daugoipuradorvn@gmail.com>', // sender address
-    to: "thanhhuyen@cbvietnam.com", // list of receivers
+    to: "store@daugoipurador.com", // list of receivers
     subject: "Có đơn đặt hàng trên website daugoipurador.com", // Subject line
     html,
   });
