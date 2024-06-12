@@ -49,7 +49,7 @@ const category = async (req, res) => {
   const title = category.title;
   const total = products.length;
 
-  res.render("site/category", {
+  res.render("site/sanpham", {
     title,
     total,
     products,
@@ -68,7 +68,7 @@ const product = async (req, res) => {
   const limit =4;
   const product = await ProductModel.findById(id);
   const comments = await CommentModel.find({ prd_id: id }).sort({ _id: -1 }).limit(limit);
-  res.render("site/product", { product, comments });
+  res.render("site/san-pham", { product, comments });
 };
 
 const comment = async (req, res) => {
@@ -243,7 +243,7 @@ const success = (req, res) => {
 };
 
 const contact = (req, res) => {
-  res.render("site/contact");
+  res.render("site/lienhe");
 };
 
 const about = (req, res) => {

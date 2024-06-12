@@ -178,9 +178,9 @@ router.get("/chinhsachvanchuyen", SiteController.chinhsachvanchuyen);
 
 // Router Site
 router.get("/", SiteController.home);
-router.get("/category-:slug.:id", SiteController.category);
-router.get("/product-:slug.:id", SiteController.product);
-router.post("/product-:slug.:id", SiteController.comment);
+router.get("/sanpham-:slug.:id", SiteController.category);
+router.get("/san-pham-:slug.:id", SiteController.product);
+router.post("/san-pham-:slug.:id", SiteController.comment);
 
 router.get("/blog", SiteController.blog);
 router.get("/allBlog", SiteController.allBlog);
@@ -196,7 +196,7 @@ router.get("/delete-cart-:id", SiteController.deleteCart);
 router.post("/order", SiteController.order);
 
 router.get("/success", SiteController.success);
-router.get("/contact", SiteController.contact);
+router.get("/lienhe", SiteController.contact);
 router.get("/about", SiteController.about);
 router.get("/coming_soon", SiteController.coming_soon);
 
