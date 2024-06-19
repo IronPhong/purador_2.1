@@ -1188,6 +1188,10 @@ form input[type="submit"]:focus {
   font-weight: bold;
 }
 
+.blog_list a img {
+  height: 276px;
+}
+
 .blog_list p {
   color: #002c3e;
   opacity: 90%;
